@@ -3,6 +3,7 @@ services:
     name: music-sync-server
     env: node
     plan: free
+    rootDir: server
     buildCommand: npm install
     startCommand: node server.js
     envVars:
